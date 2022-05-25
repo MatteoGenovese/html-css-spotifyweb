@@ -1,0 +1,105 @@
+/*--------------------------------------RESET*/
+*{
+    font-family: 'Montserrat',serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+:root{
+    --1st-color: #fff;
+    --2nd-color: #000;
+}
+section{
+    padding: 10px 0;
+}
+
+/*-----------------------------------Utilities*/
+
+.container{
+    width: calc( 100% - 20px );
+    margin: 0 auto;
+}
+
+.flex-cont{
+    display: flex;
+}
+.flex-aic{
+    align-items: stretch;
+    align-content: center;
+}
+.ai{
+    align-self: center;
+}
+.flex-sb{
+    justify-content: space-between;
+}
+.align-vertically-center{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 26px;
+}
+.button a{
+    text-decoration: none;
+}
+
+
+/*-----------------------------------Header*/
+
+header{
+    background-color: #000;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-bar{
+
+}
+.logo img{
+    height: 50px;
+}
+.upgrade{
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*-----------------------------------Main*/
+main{
+    height: calc( 100vh - 160px );
+    display: flex;
+    align-items: stretch;
+}
+
+.left-menu{
+    width: 320px;
+    height: 100%;
+    background-color:slateblue;
+}
+
+.main-space{
+    width: calc(100% - 320px);
+    height: 100%;
+    background-color: aqua;
+}
+.profile{
+    flex-grow: 1;
+}
+
+/*-----------------------------------Footer*/
+
+footer{
+    height: 80px;
+    background-color: pink;
+}
